@@ -1,48 +1,54 @@
-# Oracle — AI-assisted Oracle Bone Script Research
+# Oracle — Autonomous Oracle Bone Script Decipherment
 
-**Mission:** build an open, evidence-grounded research workflow that uses modern AI and computational methods to help scholars investigate difficult and undeciphered Oracle Bone Script (OBS) inscriptions.
+**Mission:** maximize the number of genuinely unresolved Oracle Bone Script readings that can be proposed and substantiated autonomously, while minimizing case-specific human intervention.
 
-> **AI proposes; evidence constrains; scholars review.**
+> **Autonomy proposes; evidence constrains; independent validation establishes.**
 
-This project does not assume that current AI can translate all undeciphered inscriptions. “Unsolved” cases differ: a sign may be damaged or incomplete, its shape may be unknown, its reading may be disputed, or the inscription may remain unclear even when individual graphs are recognized. We keep these problems separate.
+Oracle is designed to discover graph forms, generate competing reading hypotheses, retrieve supporting and contradicting evidence, quantify uncertainty, and test its own hypotheses. It must be allowed to abstain. Candidate generation, model consensus, or a high confidence score alone never counts as decipherment.
+
+## North-star outcome
+
+**Autonomous Validated New Readings:** new readings that pass the documented validation protocol without case-specific human intervention during the autonomous run.
+
+Report this together with false-discovery risk, abstention, evidence completeness, calibration, and cost. Known-answer blind recovery measures capability but is not a new decipherment. Post-run independent validation is distinct from human intervention during system operation.
 
 ## Research pillars
 
-1. **Corpus & provenance** — trace every image, rubbing, transcription, catalogue record, rights statement, and scholarly source.
-2. **Visual understanding** — detect inscriptions, segment graph occurrences, describe morphology, and retrieve comparable forms.
-3. **Graph identification** — rank candidate graphs and readings without silently forcing uncertain signs into known characters.
-4. **Text and context** — compare parallel divinations, syntax, formulae, historical and archaeological context.
-5. **Fragment relations** — investigate joins, duplicates, and relations between fragments with explicit evidence.
-6. **Evaluation** — benchmark AI against documented scholarly readings and expert review, with uncertainty and abstention measured.
+1. **Corpus & provenance** — trace every artifact, image, rubbing, transcription, catalogue record, rights statement, and scholarly source.
+2. **Discovery & visual understanding** — discover graph occurrences, cluster forms, segment graphs, and identify unknown or damaged cases.
+3. **Graph and reading hypotheses** — rank candidates while preserving alternatives and uncertainty.
+4. **Evidence reasoning** — compare parallel inscriptions, syntax, formulae, historical and archaeological context.
+5. **Adversarial validation** — search for counter-evidence, test on independent holdouts, and calibrate uncertainty.
+6. **Autonomous evaluation** — measure new validated readings, abstention, false discoveries, autonomy, reproducibility, and cost.
 
-## Principles
+## Non-negotiable principles
 
-- Preserve original assets; all preprocessing outputs are derived, versioned assets.
-- Separate visual observation, transcription, reading, interpretation, and historical inference.
-- Record competing hypotheses and counter-evidence.
-- Never treat model confidence as historical truth.
+- Separate visual observation, graph identification, reading, interpretation, and historical inference.
+- Preserve competing hypotheses and counter-evidence.
+- Never treat model confidence or multi-model agreement as historical truth.
+- Do not count a candidate as a decipherment.
+- Allow explicit abstention when evidence is inadequate.
+- Keep autonomous operation separate from post-run independent validation.
+- Preserve original assets; version all derived assets and transformations.
 - Respect source licenses. Public accessibility does not imply permission to download, train on, or redistribute data.
 - Code licensing does not grant rights to third-party images or corpora.
 
 ## Repository map
 
-- `docs/ROADMAP.md` — phased research plan
-- `docs/METHODOLOGY.md` — evidence-first decipherment workflow
-- `docs/TECHNICAL_ARCHITECTURE.md` — AI and data architecture
-- `docs/DATA_MODEL.md` — provenance and annotation schema
-- `docs/BENCHMARK.md` — evaluation protocol
-- `docs/RESOURCES.md` — datasets, databases, papers, and rights notes
-- `docs/CONTRIBUTING.md` — contribution and review rules
-- `cases/README.md` — template for individual difficult cases
+- docs/DECIPHERMENT_SUCCESS_CRITERIA.md — outcome definitions, autonomy, evidence gates, and metrics
+- docs/ROADMAP.md — phased research plan
+- docs/METHODOLOGY.md — evidence-first decipherment workflow
+- docs/TECHNICAL_ARCHITECTURE.md — AI and data architecture
+- docs/DATA_MODEL.md — provenance and annotation schema
+- docs/BENCHMARK.md — evaluation protocol
+- docs/RESOURCES.md — datasets, databases, papers, and rights notes
+- tasks/PHASE_00_FOUNDATION.md — autonomous decipherment foundation work packages
+- cases/README.md — template for individual difficult cases
 
-## First milestone
+## Current milestone
 
-Create a legally usable pilot corpus with traceable provenance; define an annotation schema; establish retrieval and recognition baselines; then publish a small number of carefully documented case studies for independent scholarly review.
+Phase 00 establishes measurable success criteria, a leakage-resistant pilot inventory, confidence/uncertainty records, and a minimal autonomous baseline. No claim is made that Oracle has solved any undeciphered inscription.
 
 ## Suggested licensing
 
 The repository's original code may use MIT. Original documentation may use CC BY 4.0. Third-party datasets, photographs, rubbings, and transcriptions retain their own licenses and terms. Add explicit per-resource rights metadata before reuse.
-
-## Status
-
-Research framework initialized. No claim is made that the project has solved any undeciphered inscription.
