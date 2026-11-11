@@ -2,7 +2,7 @@
 
 **Window:** Weeks 1–2  
 **Goal:** Establish what is already known, what data can lawfully be used, and where a meaningful research gap exists.  
-**Status:** TODO
+**Status:** REVIEW — Sprint 1 desk research artifacts committed; pending primary-data audit and expert validation.
 
 ## Work packages
 
