@@ -41,6 +41,17 @@ Priority is sequencing guidance, not a claim that lower-priority work is optiona
 
 **Sprint 1 acceptance:** every reviewed resource has a citation, access route, rights note, coverage description, and relevance assessment; the unresolved-problem taxonomy is documented; the team can explain what the project will add beyond existing databases and AI systems.
 
+## Sprint 1 result (2026-11-11)
+
+Desk research artifacts are committed; Phase 01 is in **REVIEW**, not DONE, because source-level sampling, rights verification, and expert validation remain open.
+
+- [Sprint 1 report](../reports/SPRINT_01_REPORT.md)
+- [Unresolved-problem taxonomy](../reports/problem_taxonomy.md)
+- [Database comparison](../reports/database_comparison.csv)
+- [Dataset source register](../datasets/source_register.csv)
+- [Literature review](../reports/literature_review.md)
+- [Research gap and proposed positioning](../reports/research_gap.md)
+
 ## Status convention
 
 Use `TODO`, `IN_PROGRESS`, `BLOCKED`, `REVIEW`, and `DONE` for task status. Do not mark a task done until its deliverables and acceptance criteria are met.
