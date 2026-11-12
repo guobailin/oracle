@@ -25,19 +25,19 @@ Acceptance:
 
 **Status:** IN_PROGRESS
 
-**Deliverables:** [Selection and Blinding Protocol](../datasets/pilot/PILOT_SELECTION_PROTOCOL.md) · [30-slot Inventory](../datasets/pilot/PILOT_INVENTORY.csv) · [Source Register](../datasets/pilot/SOURCE_REGISTER.md)
+**Deliverables:** [Selection and Blinding Protocol](../datasets/pilot/PILOT_SELECTION_PROTOCOL.md) · [30-slot Inventory](../datasets/pilot/PILOT_INVENTORY.csv) · [Track A Candidate Register](../datasets/pilot/track_a_candidates.csv) · [Source Register](../datasets/pilot/SOURCE_REGISTER.md)
 
 - [x] Define Track A / Track B sampling quotas and U1–U6 unresolved strata.
 - [x] Define case admission, blinding, leakage-audit, and rights-audit rules.
 - [x] Create 30 clearly marked candidate slots; no placeholder is counted as an admitted case.
 - [x] Register initial dataset/database discovery sources and rights caveats.
 
-**Status note:** No individual case is yet marked ADMITTED. Candidate selection and source-level verification remain open.  
+**Status note:** Three Track A record-level candidates have been located (乙4779/合8167, 乙484/合21722, 前5.26.2/合8154; all under graph head 休). They remain PROPOSED, not ADMITTED. They are three occurrences of one graph type, not three independent graph types. Exact image assets/hashes, image rights, context packages, duplicates, and leakage remain unaudited. No Track B case has been admitted.  
 **Target:** Initial inventory of 30 candidate cases, subject to source/rights audit.
 
-- [ ] 15 concealed-known cases with defensible reference readings.
+- [ ] 15 concealed-known cases with defensible reference readings. (3 record-level candidates located; 0 admitted; only one graph-type family so far.)
 - [ ] 15 unresolved/disputed/damaged cases, stratified by problem type.
-- [ ] Record artifact, image, occurrence, context, source locator, reference status, rights, and duplicate relationships.
+- [ ] Record artifact, image, occurrence, context, source locator, reference status, rights, and duplicate relationships. (Initial locators recorded for 3 candidates; image and rights audits remain open.)
 - [ ] Identify training/retrieval leakage risks and freeze split rules.
 - [ ] Mark cases unscorable where source quality or reference status is inadequate.
 
