@@ -23,7 +23,16 @@ Acceptance:
 
 ## T0.2 — Build the pilot case inventory
 
-**Status:** TODO  
+**Status:** IN_PROGRESS
+
+**Deliverables:** [Selection and Blinding Protocol](../datasets/pilot/PILOT_SELECTION_PROTOCOL.md) · [30-slot Inventory](../datasets/pilot/PILOT_INVENTORY.csv) · [Source Register](../datasets/pilot/SOURCE_REGISTER.md)
+
+- [x] Define Track A / Track B sampling quotas and U1–U6 unresolved strata.
+- [x] Define case admission, blinding, leakage-audit, and rights-audit rules.
+- [x] Create 30 clearly marked candidate slots; no placeholder is counted as an admitted case.
+- [x] Register initial dataset/database discovery sources and rights caveats.
+
+**Status note:** No individual case is yet marked ADMITTED. Candidate selection and source-level verification remain open.  
 **Target:** Initial inventory of 30 candidate cases, subject to source/rights audit.
 
 - [ ] 15 concealed-known cases with defensible reference readings.
